@@ -43,7 +43,7 @@ function email() {
 }
 ```
 
-#### profileImage()
+#### profileImage(document_id)
 Displays the user's profile image using the document ID.
 ```
 function profileImage() {
@@ -52,10 +52,13 @@ function profileImage() {
 ```
 
 
-#### domainName()
+#### domainName(document_id)
 Displays the user's domain name using the document ID.
 ```
 function domainName() {
   ...
 }
 ```
+
+## Parameters
+#### document_id
