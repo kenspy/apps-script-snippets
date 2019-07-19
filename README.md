@@ -79,7 +79,7 @@ function domainName() {
 #### calculateHours()
 
 ## Parameters
-#### date_time_formate
+#### date_time_format
 #### document_id
 #### from_date and to_date
 #### headding_row_number
