@@ -9,6 +9,10 @@ It is important to enabled the `Drive API` from both Apps Script and the Google 
 ## Library ID
 You can test the library using the project ID.
 `1cyf4-wSESVKfkNR2xfDynYgE2nJ3P4M5SVoMqRd3EyQUajUCQLiU1-Z8` and `SnippetApp` as the identifier.
+#### Usability
+`SnippetApp.firstName()`<br/>
+`SnippetApp.lastName()`<br/>
+`SnippetApp.profileImage('1abcdefghijklmnopqrstuv')`
 
 ## User Information
 #### firstName()
