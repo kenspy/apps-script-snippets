@@ -81,7 +81,8 @@ function domainName() {
 ## Parameters
 #### date_time_format
 #### document_id
-#### from_date and to_date
+#### from_date 
+#### to_date
 #### headding_row_number
 #### sheet_name
 #### spreadsheet_id
