@@ -1,7 +1,7 @@
 # Google Apps Script Snippets
 
 ## Introduction
-Useful Google Apps Script snippets to easily integrate in your Apps Script project.
+Useful Google Apps Script snippets to easily integrate in your Apps Script project. This library is design to be simple and easy to understand for beginners, by reducing the amount of codes it would take to get a tasks done and implement the most used function in one line of code.
 
 ## Advanced Google Services
 It is important to enabled the `Drive API` from both Apps Script and the [Google Cloud Platform API Dashboard](https://console.cloud.google.com/apis/api/drive.googleapis.com/overview).
