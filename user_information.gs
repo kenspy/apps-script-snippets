@@ -53,10 +53,23 @@ function fullName() {
   return fullName;
 }
 
+// Get email
 function email() {
   var email = Session.getActiveUser().getEmail();
   return email;
 }
+
+// Get initials
+function initials() {
+  var about = Drive.About.get();
+  var name = about["user"]["displayName"].split(' ');
+  var first = name[0].charAt(0).toUpperCase();
+  var last = name[name.length -1].charAt(0).toUpperCase();
+  var initial = first + last;
+
+  return initial;
+}
+
 
 // Get Profile Image from document ID
 function profileImage(document_id) {
