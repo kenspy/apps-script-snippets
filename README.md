@@ -4,7 +4,7 @@
 Useful Google Apps Script snippets to easily integrate in your Apps Script project.
 
 ## Advanced Google Services
-It is important to enabled the `Drive API` from both Apps Script and the Google Cloud Platform API Dashboard.
+It is important to enabled the `Drive API` from both Apps Script and the [Google Cloud Platform API Dashboard](https://console.cloud.google.com/apis/api/drive.googleapis.com/overview).
 
 ## Library ID
 You can test the library using the project ID.
