@@ -64,5 +64,24 @@ function domainName() {
 }
 ```
 
+## Sheet to JSON
+#### getJson()
+
+## Date and Time Format
+#### newDate()
+
+#### calculateYears()
+
+#### calculateMonths()
+
+#### calculateDays()
+
+#### calculateHours()
+
 ## Parameters
+#### date_time_formate
 #### document_id
+#### from_date and to_date
+#### headding_row_number
+#### sheet_name
+#### spreadsheet_id
