@@ -1,4 +1,4 @@
-# Google Apps Script snippets
+# Google Apps Script Snippets
 
 ## Introduction
 Useful Google Apps Script snippets to easily integrate in your Apps Script project.
