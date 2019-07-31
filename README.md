@@ -10,73 +10,65 @@ It is important to enabled the `Drive API` from both Apps Script and the [Google
 You can test the library using the project ID.
 `1cyf4-wSESVKfkNR2xfDynYgE2nJ3P4M5SVoMqRd3EyQUajUCQLiU1-Z8` and `SnippetApp` as the identifier.
 #### Usability
-`SnippetApp.firstName()`<br/>
-`SnippetApp.lastName()`<br/>
-`SnippetApp.profileImage('1abcdefghijklmnopqrstuv')`
+`SnippetApp.user().firstName()`<br/>
+`SnippetApp.sheet().getJSON()`<br/>
+`SnippetApp.user().profileImage('1abcdefghijklmnopqrstuv')`
 
-## User Information
+## user()
 #### firstName()
 Displays the user's first name.
 ```
-function firstName() {
-  ...
-}
+SnippetApp.user().firstName();
 ```
 
 #### lastName()
 Displays the user's last name.
 ```
-function lastName() {
-  ...
-}
+SnippetApp.user().lastName();
 ```
 
 #### fullName()
 Displays the user's full name.
 ```
-function fullName() {
-  ...
-}
+SnippetApp.user().fullName();
 ```
 
 #### email()
 Displays the user's email.
 ```
-function email() {
-  ...
-}
+SnippetApp.user().email()
 ```
 
 #### profileImage(document_id)
 Displays the user's profile image using the document ID.
 ```
-function profileImage() {
-  ...
-}
+SnippetApp.user().profileImage('1abcdefghijklmnopqrstuvwxyz');
 ```
 
 
 #### domainName(document_id)
 Displays the user's domain name using the document ID.
 ```
-function domainName() {
-  ...
-}
+SnippetApp.user().domainName('1abcdefghijklmnopqrstuvwxyz')
 ```
 
-## Sheet to JSON
-#### getJson()
+## sheet()
+#### getJSON(spreadsheet_id, sheet_name, heading_row_number)
+#### getPDF(spreadsheet_id, sheet_name, from_range, to_range)
+#### orderSheetByName(spreadsheet_id)
 
-## Date and Time Format
-#### newDate()
+## Date()
+#### newDate(date_time_format)
+#### newTime(time_format)
 
-#### calculateYears()
+## calculate()
+#### calculateYears(from_date, to_date)
 
-#### calculateMonths()
+#### calculateMonths(from_date, to_date)
 
-#### calculateDays()
+#### calculateDays(from_date, to_date)
 
-#### calculateHours()
+#### calculateHours(from_date, to_date)
 
 ## Parameters
 #### date_time_format
