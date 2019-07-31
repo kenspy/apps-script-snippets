@@ -12,7 +12,7 @@ You can test the library using the project ID.
 #### Usability
 `SnippetApp.user().firstName()`<br/>
 `SnippetApp.sheet().getJSON('1abcdefghijklmnopqrstuv', 'Sheet1')`<br/>
-`SnippetApp.user().profileImage('1abcdefghijklmnopqrstuv')`
+`SnippetApp.calculate().months('04/15/2015', '07/25/2018)`
 
 ## user()
 #### firstName()
