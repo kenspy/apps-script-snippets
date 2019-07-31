@@ -1,5 +1,5 @@
 /**
- * Get user's information
+ * Get sheet information
  *
  * @return {sheet} sheet
 */
