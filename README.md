@@ -11,7 +11,7 @@ You can test the library using the project ID.
 `1cyf4-wSESVKfkNR2xfDynYgE2nJ3P4M5SVoMqRd3EyQUajUCQLiU1-Z8` and `SnippetApp` as the identifier.
 #### Usability
 `SnippetApp.user().firstName()`<br/>
-`SnippetApp.sheet().getJSON()`<br/>
+`SnippetApp.sheet().getJSON('1abcdefghijklmnopqrstuv', 'Sheet1')`<br/>
 `SnippetApp.user().profileImage('1abcdefghijklmnopqrstuv')`
 
 ## user()
