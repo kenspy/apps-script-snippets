@@ -38,7 +38,8 @@ function sheet() {
       body.forEach(function(res, i) {
         dataBody.push(res);
       });
-  
+      
+      // File location in /integrations/google-sheets/util.gs
       var data = generateHeadings_(dataBody, dataHeadings); // Assign headings to data body
       var response = JSON.stringify(data); // Apply JSON format
   
