@@ -28,7 +28,7 @@ function date() {
     * @return {String}
     */
     newTime: function(time_format) {
-      var date = new Date().getTime();
+      var date = new Date();
       var format = (time_format != '' && time_format != null) ? time_format : 'HH:mm:ss a';
       var timezone = Session.getScriptTimeZone();
       var result = Utilities.formatDate(date, timezone, format);
