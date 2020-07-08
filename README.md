@@ -3,18 +3,18 @@
 ## Introduction
 Useful Google Apps Script snippets to easily integrate in your Apps Script project. This library is design to be simple and easy to understand for beginners, by reducing the amount of codes it would take to get a tasks done and implement the most used function in one line of code.
 
-## Advanced Google Services
+## **Advanced Google Services**
 It is important to enabled the `Drive API` from both Apps Script and the [Google Cloud Platform API Dashboard](https://console.cloud.google.com/apis/api/drive.googleapis.com/overview).
 
-## Library ID
-You can test the library using the project ID.
+## **Library ID**
+You can use the library using the project ID.
 `1cyf4-wSESVKfkNR2xfDynYgE2nJ3P4M5SVoMqRd3EyQUajUCQLiU1-Z8` and `SnippetApp` as the identifier.
 #### Usability
 `SnippetApp.user().firstName()`<br/>
 `SnippetApp.sheet().getJSON('1abcdefghijklmnopqrstuv', 'Sheet1')`<br/>
 `SnippetApp.calculate().months('04/15/2015', '07/25/2018');`
 
-## user()
+## **user()**
 #### firstName()
 Displays the user's first name.
 ```
@@ -57,7 +57,7 @@ Displays the user's domain name using the document ID.
 SnippetApp.user().domainName('1abcdefghijklmnopqrstuvwxyz');
 ```
 
-## sheet()
+## **sheet()**
 #### getJSON(spreadsheet_id, sheet_name, heading_row_number)
 Displays the sheet data in JSON format.
 ```
@@ -76,7 +76,7 @@ Re-arrange sheets in alphabetical order.
 SnippetApp.sheet().oderSheetByName('1abcdefghijklmnopqrstuvwxyz');
 ```
 
-## Date()
+## **Date()**
 #### newDate(date_time_format)
 Displays today's date in different format.
 ```
@@ -95,7 +95,7 @@ Format dates or time
 SnippetApp.date().format('01/01/2020', 'MM/dd/yyyy');
 ```
 
-## calculate()
+## **calculate()**
 #### calculateYears(from_date, to_date)
 Calculate number of years between to dates.
 ```
@@ -120,7 +120,7 @@ Calculate number of hours between two dates.
 SnippetApp.calculate().calculateHours('01/01/1980', '01/01/2020');
 ```
 
-## Parameters
+## **Parameters**
 #### date_time_format
 `MM/dd/yy`            example: 01/01/20
 `MM/dd/yyyy`          example: 01/01/2020
