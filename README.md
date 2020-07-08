@@ -18,6 +18,11 @@ You can test the library using the project ID.
 #### firstName()
 Displays the user's first name.
 ```
+var user =  SnippetApp.user();
+var firstName = user.firstName();
+```
+Or
+```
 SnippetApp.user().firstName();
 ```
 
