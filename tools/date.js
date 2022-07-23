@@ -29,7 +29,23 @@ function date() {
     */
     newTime: function(time_format) {
       var date = new Date();
-      var format = (time_format != '' && time_format != null) ? time_format : 'HH:mm:ss a';
+      var format = (time_format != '' && time_format != null) ? time_format : 'hh:mm:ss a';
+      var timezone = Session.getScriptTimeZone();
+      var result = Utilities.formatDate(date, timezone, format);
+      
+      return result;
+    },
+    
+    /**
+    * Returns the time.
+    *
+    * @param {String} date_time
+    * @param {String} date_time_format Format using: 'MM/dd/yyyy' 
+    * @return {String}
+    */
+    format: function(date_time, date_time_format) {
+      var date = new Date(date_time);
+      var format = (date_time_format != '' && date_time_format != null) ? date_time_format : 'HH:mm:ss a';
       var timezone = Session.getScriptTimeZone();
       var result = Utilities.formatDate(date, timezone, format);
       
@@ -37,3 +53,6 @@ function date() {
     }
   }
 }
+
+
+

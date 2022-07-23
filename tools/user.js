@@ -1,7 +1,23 @@
 /**
  * Get user's information
  *
- * @return {user} user
+ * First Name: user().firstName();
+ * Last Name: user().lastName();
+ * Full Name: user().fullName();
+ * Email: user().email();
+ * Initials: user().initials();
+ * Profile Image: user().profileImage(document_id);
+ * Domain Name: user().domainName();
+ *
+ * @param {String} document_id
+ *
+ * @return {String} firstName
+ * @return {String} laststName
+ * @return {String} fullName
+ * @return {String} email
+ * @return {String} initials
+ * @return {String} profileImage
+ * @return {String} domainName
 */
 function user() {
   return {
@@ -15,7 +31,7 @@ function user() {
       var name = about["user"]["displayName"].split(' ');
       var first = name[0];
     
-      return first
+      return first;
     },
     
     /**
@@ -96,3 +112,4 @@ function user() {
     }
   }
 }
+
